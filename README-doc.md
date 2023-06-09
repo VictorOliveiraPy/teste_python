@@ -55,14 +55,12 @@ O pytest é uma estrutura de teste amplamente utilizada para testes unitários e
 3. Execute o seguinte comando para executar todos os testes:
    ```bash 
    export PYTHONPATH="${PYTHONPATH}:/src"
-   4. ```
-
-      ```bash
-      make test
-      ```
-      Isso executará todos os testes unitários no diretório atual e gerará um relatório em HTML chamado "report.html".
-
-4. Abra o arquivo "report.html" em um navegador da web para visualizar o relatório dos testes executados.
+    ```
+4.
+   ```bash
+   make test
+   ```
+      Isso executará todos os testes unitários no diretório atual.
 
 
 ## Generators
@@ -72,6 +70,8 @@ especialmente quando lidamos com grandes conjuntos de dados ou sequências infin
 
 1- Economia de memoria, evita criacao e a alocacao de memoria para uma lista completa, so produzem valores quando sao explicitamente solicitados.
 Tem suporte a operacoes em tempo real.
+
+## Numpy 
 
 3 Numpy para calculo -  A lib e escrito em C e otimizada para operacoes numericas, ele utilizar objeto de matriz multidimensional
 chamado de ndarray que armazenar grande quantidade de dados em memoria de forma eficiente, e tem uma sobrecarga de memoria menor que as lista
